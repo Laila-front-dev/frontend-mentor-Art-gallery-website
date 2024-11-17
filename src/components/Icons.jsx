@@ -11,7 +11,7 @@ function Icons() {
         <Link to={"https://www." + icon + ".com/"} target="_blank" key={index}>
           <img
             className="mx-2 object-none md:w-[20px]"
-            src={"/public/assets/images/icon-" + icon + ".svg"}
+            src={"../assets/images/icon-" + icon + ".svg"}
             alt={icon}
           />
         </Link>

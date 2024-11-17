@@ -11,16 +11,16 @@ function Hero() {
         </div>
         <picture className="mx-auto md:mx-0 md:w-[437px] lg:w-[540px]">
           <source
-            srcSet="/public/assets/images/desktop/image-hero.jpg"
+            srcSet="../assets/images/desktop/image-hero.jpg"
             media="(min-width: 1200px)"
           />
           <source
-            srcSet="/public/assets/images/tablet/image-hero.jpg"
+            srcSet="../assets/images/tablet/image-hero.jpg"
             media="(min-width: 768px)"
           />
           <img
             className="w-full object-contain"
-            src="/public/assets/images/mobile/image-hero.jpg"
+            src="../assets/images/mobile/image-hero.jpg"
             alt="hero image"
           />
         </picture>
@@ -37,7 +37,7 @@ function Hero() {
             <Button
               link="location"
               name="OUR LOCATION"
-              bgImage="after:bg-[url('/public/assets/images/icon-arrow-right.svg')]"
+              bgImage="after:bg-[url('../assets/images/icon-arrow-right.svg')]"
               positionColor="before:right-[0]"
               position="after:right-[25px]"
               textPosition="text-start"
