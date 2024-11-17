@@ -11,7 +11,8 @@ function Footer(props) {
       <div className="container lg:p-0 md:mx-auto md:flex items-center justify-between">
         <img
           className="object-contain	"
-          src={`/public/assets/images/${props.logo}.svg`}
+          // eslint-disable-next-line react/prop-types
+          src={`../assets/images/${props.logo}.svg`}
           alt="logo"
         />
         <p className="text-[1.125rem] md:w-[281px] lg:w-[430px] py-[2.375rem]">
