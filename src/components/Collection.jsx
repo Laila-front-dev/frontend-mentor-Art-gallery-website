@@ -42,7 +42,7 @@ function Collection() {
         />
       </picture>
 
-      <div className="mt-4 md:mt-0 grid-rows-2 col-start-5 col-end-[-1] md:row-start-2 grid md:gap-2.5 lg:gap-10 text-color-white">
+      <div className="mt-4 md:mt-0 grid-rows-2 col-start-5 col-end-[-1] md:row-start-2 grid md:gap-2.5 lg:gap-[10px] text-color-white">
         {/* w-max lg:w-full md:w-fit* */}
         <picture className="contents md:block">
           <source
@@ -59,7 +59,7 @@ function Collection() {
             alt="hero image"
           />
         </picture>
-        <div className="mt-4 pt-12 px-[1.625rem] bg-color-black">
+        <div className=" pt-12 px-[1.625rem] bg-color-black">
           <h2 className="font-display text-6xl leading-[60px] uppercase">
             COME & BE INSPIRED
           </h2>
