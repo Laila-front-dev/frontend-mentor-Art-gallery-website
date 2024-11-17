@@ -15,7 +15,7 @@ function Footer(props) {
           src={`../assets/images/${props.logo}.svg`}
           alt="logo"
         />
-        <p className="text-[1.125rem] md:w-[281px] lg:w-[430px] py-[2.375rem]">
+        <p className="text-[1.125rem] md:w-[281px] lg:w-[430px] py-[2.375rem] md:py-0">
           The Modern Art Gallery is free to all visitors and open seven days a
           week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
         </p>
